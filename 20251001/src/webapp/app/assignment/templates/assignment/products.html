@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Products</title>
+    <link rel="stylesheet" href="{% static 'admin/css/base.css' %}">
+    <style>
+      header {
+        margin: 2em 0 0 5em;
+      }
+      main {
+        display: flex;
+        padding: 5em;
+      }
+      section {
+        margin-left: 2em;
+      }
+      article {
+        margin: 1em 0;
+        border: 1px solid #ccc;
+        padding: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <header>
+        <h1><a href="/">Assignment</a></h1>
+      </header>
+      <main>
+        <form action="" method="get">
+          <h5>Search Products</h5>
+          <table>
+            {{ form.as_table }}
+            <tr>
+              <td></td>
+              <td><button type="submit">Search</button></td>
+            </tr>
+          </table>
+        </form>
+        <section>
+          {% if products %}
+            <h3>Products</h3>
+            {% for product in products %}
+            {% include "assignment/include_product.html" with product=product %}
+            {% endfor %}
+          {% else %}
+            <p>No products found.</p>
+          {% endif %}
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

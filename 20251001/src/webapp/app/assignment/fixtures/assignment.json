@@ -1,0 +1,531 @@
+[
+    {
+        "model": "taggit.tag",
+        "pk": 1,
+        "fields": {
+            "name": "new",
+            "slug": "new"
+        }
+    },
+    {
+        "model": "taggit.tag",
+        "pk": 2,
+        "fields": {
+            "name": "discount",
+            "slug": "discount"
+        }
+    },
+    {
+        "model": "taggit.tag",
+        "pk": 3,
+        "fields": {
+            "name": "hot",
+            "slug": "hot"
+        }
+    },
+    {
+        "model": "taggit.tag",
+        "pk": 4,
+        "fields": {
+            "name": "handmade",
+            "slug": "handmade"
+        }
+    },
+    {
+        "model": "taggit.tag",
+        "pk": 5,
+        "fields": {
+            "name": "bogo",
+            "slug": "bogo"
+        }
+    },
+    {
+        "model": "taggit.tag",
+        "pk": 6,
+        "fields": {
+            "name": "sale",
+            "slug": "sale"
+        }
+    },
+    {
+        "model": "taggit.tag",
+        "pk": 7,
+        "fields": {
+            "name": "clearance",
+            "slug": "clearance"
+        }
+    },
+    {
+        "model": "taggit.tag",
+        "pk": 8,
+        "fields": {
+            "name": "bestseller",
+            "slug": "bestseller"
+        }
+    },
+    {
+        "model": "taggit.tag",
+        "pk": 9,
+        "fields": {
+            "name": "organic",
+            "slug": "organic"
+        }
+    },
+    {
+        "model": "taggit.tag",
+        "pk": 10,
+        "fields": {
+            "name": "recommended",
+            "slug": "recommended"
+        }
+    },
+    {
+        "model": "taggit.taggeditem",
+        "pk": 1,
+        "fields": {
+            "tag": 3,
+            "content_type": 9,
+            "object_id": 1
+        }
+    },
+    {
+        "model": "taggit.taggeditem",
+        "pk": 2,
+        "fields": {
+            "tag": 5,
+            "content_type": 9,
+            "object_id": 2
+        }
+    },
+    {
+        "model": "taggit.taggeditem",
+        "pk": 3,
+        "fields": {
+            "tag": 5,
+            "content_type": 9,
+            "object_id": 5
+        }
+    },
+    {
+        "model": "taggit.taggeditem",
+        "pk": 4,
+        "fields": {
+            "tag": 1,
+            "content_type": 9,
+            "object_id": 5
+        }
+    },
+    {
+        "model": "taggit.taggeditem",
+        "pk": 5,
+        "fields": {
+            "tag": 5,
+            "content_type": 9,
+            "object_id": 6
+        }
+    },
+    {
+        "model": "taggit.taggeditem",
+        "pk": 6,
+        "fields": {
+            "tag": 2,
+            "content_type": 9,
+            "object_id": 7
+        }
+    },
+    {
+        "model": "taggit.taggeditem",
+        "pk": 7,
+        "fields": {
+            "tag": 4,
+            "content_type": 9,
+            "object_id": 8
+        }
+    },
+    {
+        "model": "taggit.taggeditem",
+        "pk": 8,
+        "fields": {
+            "tag": 1,
+            "content_type": 9,
+            "object_id": 8
+        }
+    },
+    {
+        "model": "taggit.taggeditem",
+        "pk": 9,
+        "fields": {
+            "tag": 10,
+            "content_type": 9,
+            "object_id": 8
+        }
+    },
+    {
+        "model": "taggit.taggeditem",
+        "pk": 10,
+        "fields": {
+            "tag": 1,
+            "content_type": 9,
+            "object_id": 9
+        }
+    },
+    {
+        "model": "taggit.taggeditem",
+        "pk": 11,
+        "fields": {
+            "tag": 3,
+            "content_type": 9,
+            "object_id": 10
+        }
+    },
+    {
+        "model": "taggit.taggeditem",
+        "pk": 12,
+        "fields": {
+            "tag": 1,
+            "content_type": 9,
+            "object_id": 10
+        }
+    },
+    {
+        "model": "taggit.taggeditem",
+        "pk": 13,
+        "fields": {
+            "tag": 2,
+            "content_type": 9,
+            "object_id": 11
+        }
+    },
+    {
+        "model": "taggit.taggeditem",
+        "pk": 14,
+        "fields": {
+            "tag": 6,
+            "content_type": 9,
+            "object_id": 11
+        }
+    },
+    {
+        "model": "taggit.taggeditem",
+        "pk": 15,
+        "fields": {
+            "tag": 5,
+            "content_type": 9,
+            "object_id": 12
+        }
+    },
+    {
+        "model": "taggit.taggeditem",
+        "pk": 16,
+        "fields": {
+            "tag": 3,
+            "content_type": 9,
+            "object_id": 12
+        }
+    },
+    {
+        "model": "taggit.taggeditem",
+        "pk": 17,
+        "fields": {
+            "tag": 8,
+            "content_type": 9,
+            "object_id": 13
+        }
+    },
+    {
+        "model": "taggit.taggeditem",
+        "pk": 18,
+        "fields": {
+            "tag": 3,
+            "content_type": 9,
+            "object_id": 13
+        }
+    },
+    {
+        "model": "taggit.taggeditem",
+        "pk": 19,
+        "fields": {
+            "tag": 10,
+            "content_type": 9,
+            "object_id": 14
+        }
+    },
+    {
+        "model": "taggit.taggeditem",
+        "pk": 20,
+        "fields": {
+            "tag": 5,
+            "content_type": 9,
+            "object_id": 15
+        }
+    },
+    {
+        "model": "taggit.taggeditem",
+        "pk": 21,
+        "fields": {
+            "tag": 7,
+            "content_type": 9,
+            "object_id": 17
+        }
+    },
+    {
+        "model": "taggit.taggeditem",
+        "pk": 22,
+        "fields": {
+            "tag": 4,
+            "content_type": 9,
+            "object_id": 18
+        }
+    },
+    {
+        "model": "taggit.taggeditem",
+        "pk": 23,
+        "fields": {
+            "tag": 1,
+            "content_type": 9,
+            "object_id": 18
+        }
+    },
+    {
+        "model": "taggit.taggeditem",
+        "pk": 24,
+        "fields": {
+            "tag": 9,
+            "content_type": 9,
+            "object_id": 1
+        }
+    },
+    {
+        "model": "taggit.taggeditem",
+        "pk": 25,
+        "fields": {
+            "tag": 7,
+            "content_type": 9,
+            "object_id": 19
+        }
+    },
+    {
+        "model": "taggit.taggeditem",
+        "pk": 26,
+        "fields": {
+            "tag": 10,
+            "content_type": 9,
+            "object_id": 19
+        }
+    },
+    {
+        "model": "assignment.category",
+        "pk": 1,
+        "fields": {
+            "name": "Grocery"
+        }
+    },
+    {
+        "model": "assignment.category",
+        "pk": 2,
+        "fields": {
+            "name": "Electronics"
+        }
+    },
+    {
+        "model": "assignment.category",
+        "pk": 3,
+        "fields": {
+            "name": "Books"
+        }
+    },
+    {
+        "model": "assignment.category",
+        "pk": 4,
+        "fields": {
+            "name": "Furniture"
+        }
+    },
+    {
+        "model": "assignment.category",
+        "pk": 5,
+        "fields": {
+            "name": "Clothes"
+        }
+    },
+    {
+        "model": "assignment.product",
+        "pk": 1,
+        "fields": {
+            "category": 1,
+            "name": "Baking Soda",
+            "price": "5.99"
+        }
+    },
+    {
+        "model": "assignment.product",
+        "pk": 2,
+        "fields": {
+            "category": 1,
+            "name": "Vinegar",
+            "price": "4.99"
+        }
+    },
+    {
+        "model": "assignment.product",
+        "pk": 3,
+        "fields": {
+            "category": 1,
+            "name": "Salt",
+            "price": "2.37"
+        }
+    },
+    {
+        "model": "assignment.product",
+        "pk": 4,
+        "fields": {
+            "category": 1,
+            "name": "Sugar",
+            "price": "6.50"
+        }
+    },
+    {
+        "model": "assignment.product",
+        "pk": 5,
+        "fields": {
+            "category": 5,
+            "name": "Coat",
+            "price": "40.00"
+        }
+    },
+    {
+        "model": "assignment.product",
+        "pk": 6,
+        "fields": {
+            "category": 5,
+            "name": "Shoes",
+            "price": "50.00"
+        }
+    },
+    {
+        "model": "assignment.product",
+        "pk": 7,
+        "fields": {
+            "category": 5,
+            "name": "Hat",
+            "price": "15.00"
+        }
+    },
+    {
+        "model": "assignment.product",
+        "pk": 8,
+        "fields": {
+            "category": 5,
+            "name": "Socks",
+            "price": "29.99"
+        }
+    },
+    {
+        "model": "assignment.product",
+        "pk": 9,
+        "fields": {
+            "category": 2,
+            "name": "Tablet",
+            "price": "500.00"
+        }
+    },
+    {
+        "model": "assignment.product",
+        "pk": 10,
+        "fields": {
+            "category": 2,
+            "name": "Radio",
+            "price": "99.99"
+        }
+    },
+    {
+        "model": "assignment.product",
+        "pk": 11,
+        "fields": {
+            "category": 2,
+            "name": "Phone",
+            "price": "300.00"
+        }
+    },
+    {
+        "model": "assignment.product",
+        "pk": 12,
+        "fields": {
+            "category": 2,
+            "name": "Watch",
+            "price": "40.00"
+        }
+    },
+    {
+        "model": "assignment.product",
+        "pk": 13,
+        "fields": {
+            "category": 3,
+            "name": "King, The Shining",
+            "price": "50.00"
+        }
+    },
+    {
+        "model": "assignment.product",
+        "pk": 14,
+        "fields": {
+            "category": 3,
+            "name": "Poe, The Raven",
+            "price": "40.00"
+        }
+    },
+    {
+        "model": "assignment.product",
+        "pk": 15,
+        "fields": {
+            "category": 3,
+            "name": "Doyle, The Hound of the Baskervilles",
+            "price": "45.00"
+        }
+    },
+    {
+        "model": "assignment.product",
+        "pk": 16,
+        "fields": {
+            "category": 3,
+            "name": "Wells, The Island of Doctor Moreau",
+            "price": "52.00"
+        }
+    },
+    {
+        "model": "assignment.product",
+        "pk": 17,
+        "fields": {
+            "category": 4,
+            "name": "Desk",
+            "price": "150.00"
+        }
+    },
+    {
+        "model": "assignment.product",
+        "pk": 18,
+        "fields": {
+            "category": 4,
+            "name": "Chair",
+            "price": "80.00"
+        }
+    },
+    {
+        "model": "assignment.product",
+        "pk": 19,
+        "fields": {
+            "category": 4,
+            "name": "Cabinet",
+            "price": "89.99"
+        }
+    },
+    {
+        "model": "assignment.product",
+        "pk": 20,
+        "fields": {
+            "category": 4,
+            "name": "Bed",
+            "price": "120.00"
+        }
+    }
+]

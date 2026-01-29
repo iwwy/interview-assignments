@@ -1,0 +1,37 @@
+[project]
+name = "webapp"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Roman Danilov",email = "danil_rom@yahoo.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django (>=5.2.7,<6.0.0)",
+    "django-taggit (>=6.1.0,<7.0.0)",
+    "mypy (>=1.18.2,<2.0.0)",
+    "black (>=25.9.0,<26.0.0)",
+    "flake8 (>=7.3.0,<8.0.0)",
+    "flake8-import-order (>=0.19.2,<0.20.0)",
+    "pytest (>=8.4.2,<9.0.0)",
+    "pytest-cov (>=7.0.0,<8.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "webapp", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+strict = true
+exclude = ["migrations"]
+
+[[tool.mypy.overrides]]
+module = ["django.*", "taggit.*"]
+ignore_missing_imports = true
+
+[tool.black]
+line-length = 79

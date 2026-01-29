@@ -1,0 +1,12 @@
+<article>
+  <strong>Category:</strong> {{ product.category }}<br />
+  <strong>Description:</strong> {{ product.name }}<br />
+  <strong>Price:</strong> {{ product.price }}<br />
+  {% if product.tags.count %}
+    <ul>
+    {% for tag in product.tags.all %}
+    <li>{{ tag.name }}</li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+</article>
